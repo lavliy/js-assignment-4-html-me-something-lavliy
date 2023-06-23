@@ -1,4 +1,87 @@
-/* Write your CSS here! */
-header h1{
-    text-align: center;
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 8;
+	background-color:rgb(230, 212, 190);
+	font-size: 62.5%;
+    display: block;
 }
+
+header,
+main,
+footer {
+	background-color: rgb(230, 212, 190);
+	font-size: 1.6em;
+}
+
+header {
+	padding: 1.875em 0;
+}
+
+header h1 {
+	text-align: center;
+}
+
+
+
+h1 {
+	font-size: 2.5em;
+    color:rgb(73, 16, 16);
+}
+
+#mainheading{
+    color: red;
+}
+
+main h2 {
+	padding: 0.625em 0 0.625em 0.625em;
+    color: rgb(12, 12, 80);
+    
+}
+
+section {
+	margin: 1.875em 0;
+}
+
+
+nav ol {
+	text-align: center;
+	padding: 0;
+}
+
+nav ol li {
+	display: inline;
+	margin-right: 1em;
+	font-size: 1em;
+}
+
+p {
+	padding: 1.25em;
+}
+.funParagraph{
+    color: green;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+footer {
+	text-align: left;
+	padding: 3em;
+}
+
+footer p {
+	display: inline;
+}
+
+img {
+	width: 50%;	
+}
+
